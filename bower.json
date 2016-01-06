@@ -1,0 +1,31 @@
+{
+  "name": "angular-regex",
+  "version": "0.0.1",
+  "homepage": "https://www.github.com/previousdeveloper/angular-regex",
+  "authors": [
+  ],
+  "contributors": [
+  ],
+  "description": "Angular regular expressions service ",
+  "main": "./dist/angular-regex-service.js",
+  "keywords": [
+    "AngularJS",
+    "Angular",
+    "Regex",
+    "Replace",
+    "String manipulation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-mocks": "~1.4.8"
+  }
+}
