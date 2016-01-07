@@ -101,8 +101,5 @@ describe('Angular-Regex', function () {
             testString = "abc";
             expect(service.test(testString), "Maybe has a b after an a");
         });
-
-
     });
-
 });

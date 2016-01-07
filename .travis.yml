@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "5.1.0"
+matrix:
+  allow_failures:
+    - node_js: "5.1.0"
+  fast_finish: true
+before_install:
+    - "npm install -g bower"
+    - "npm install -g karma"
+before_script:
+    - "npm install"
+    - "bower install"
+    - "npm install coveralls"
+script:
+    - "npm run-script test-travis"

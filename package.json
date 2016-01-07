@@ -2,13 +2,19 @@
   "name": "angular-regex",
   "version": "0.0.1",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+    "test": "karma start",
+    "eslint:lib": "eslint lib/**",
+    "eslint:tests": "eslint tests/**",
+    "test-travis": "karma start && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "devDependencies": {
+    "eslint": "^1.10.3",
     "jasmine-core": "^2.2.0",
-    "karma": "^0.12.37",
-    "karma-chrome-launcher": "^0.1.7",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
     "karma-coverage": "^0.5.3",
-    "karma-jasmine": "^0.3.5"
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19"
   }
 }
