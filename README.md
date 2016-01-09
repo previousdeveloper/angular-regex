@@ -27,7 +27,7 @@ Here's a couple of simple examples to give an idea of how VerbalExpressions work
 
 ```javascript
 // Create an example of how to test for correctly formed URLs
-function myController($scope,regexService){  // <-- Inject notify
+function myController($scope,regexService){  // <-- Inject regexService
 
 var tester = regexService.ex()
     .startOfLine()
