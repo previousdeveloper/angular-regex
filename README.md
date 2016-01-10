@@ -76,4 +76,26 @@ var result = regexService.ex().find('red').replace('We have a red house', 'blue'
 alert(result);
 ```
 
+## API documentation
+
 You can find the API documentation at the [wiki pages](https://github.com/VerbalExpressions/JSVerbalExpressions/wiki).
+
+## A little word for a big help
+I'd like to promote a special thank-you to [Ben Nadel][ben-nadel] for his [great article about extending native JS objects][extending]
+
+## Contributions
+Clone the repo and fork:
+`git clone https://github.com/jehna/VerbalExpressions.git`.
+
+### Style guide
+
+The [Airbnb](https://github.com/airbnb/javascript) style guide is loosely used as a basis for creating clean and readable JavaScript code.
+
+Pull requests are warmly welcome!
+
+Check out these slide decks for handy Github & git tips:
+- [Git and Github Secrets](http://zachholman.com/talk/git-github-secrets/)
+- [More Git and Github Secrets](http://zachholman.com/talk/more-git-and-github-secrets/)
+
+[ben-nadel]:http://www.bennadel.com/
+[extending]:http://www.bennadel.com/blog/2292-extending-javascript-arrays-while-keeping-native-bracket-notation-functionality.htm
